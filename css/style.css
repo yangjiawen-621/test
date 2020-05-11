@@ -1,0 +1,523 @@
+
+/* 删除浏览器默认样式 */
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: underline;
+    color: purple;
+}
+
+/* 去掉水平滚动条 */
+body{
+    overflow-x: hidden;
+}
+
+/* 头顶边框 */
+.hidebar{
+    width: 250px;
+    height: 240px;
+    background-color:#fff;
+    margin-left: 1000px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+a:hover{
+    color:red;
+}
+
+.topbar{
+   width: 100%;
+   height: 30px;
+   background-color:white;
+   border: solid purple;
+   padding-left:300px ;
+}
+
+.h4{
+    margin-top: -35px;
+    color: white;
+}
+
+
+.logopos{
+    float:left;
+    margin-left: 100px;
+    margin-top:20;
+}
+
+.button2{
+    font-size:15px;
+    color:white;
+    height:40px;
+    width:100px;
+    background:#1E90FF;
+    border:3px #1E90FF"
+
+}
+.button3{
+    font-size:15px;
+    color:#1E90FF;
+    height:40px;width:100px;
+    background:silv;
+    border:1px solid #1E90FF"
+}
+.search{
+    margin-top:20px;
+    border-bottom: purple solid 1px;
+}
+
+.head{
+    background-color: #fbc;
+    width: 1000px;
+    height: auto;
+
+    border: purple 1px solid;
+}
+
+/* 删除浏览器默认样式 */
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* 设置nav的大小 */
+.nav{
+
+    /* 设置宽度和高度 */
+    width: 1280px;
+    height: 48px;
+    /* 设置背景颜色 */
+    background-color: purple;
+    margin-top: 4px;
+
+}
+
+/* 设置导航条 */
+/* 设置nav中li */
+.nav li{
+    float: left;
+    line-height: 48px;
+}
+
+/* 设置a的样式 */
+.nav a{
+    /* 将a转换为块元素 */
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    font-size: 18px;
+    padding: 0 39px;
+}
+
+.nav li:last-child a{
+    padding: 0 42px 0 41px;
+}
+
+/* 设置鼠标移入的效果 */
+.nav a:hover{
+    background-color:rgb(33, 145, 66);
+    color:white;
+}
+
+#help{
+    margin-left:895px;
+    bottom:21px;
+}
+
+.td{
+    border: 2px solid #1E90FF;
+    text-align:left;
+    width:100px;
+    height:45px;
+    background:#1E90FF;
+    color:purple;
+}
+
+/* 视频播放 */
+.IMG{
+    width: 1600x;
+    height: 350px;
+    background-color:rgba(0, 0, 255,.2);
+    color: #fffff9;
+}
+
+.video{
+    margin-left: 100px
+}
+
+.sl-slogen{
+        width: 140px;
+        height: 55px;
+        background: url(https://baikebcs.bdimg.com/front-end/second-know/img/logo.png) no-repeat;
+        background-size: contain;
+        float: left;
+        position: relative;
+        top: 50%;
+        margin-top:100px;
+        margin-left: 100px;
+}
+
+/* 文章部分 */
+article{
+    width: 972px;
+    height: 2500px;
+    background-color:rgba(129, 98, 165, 0.2);
+    border:purple 1px solid;
+    margin-left:40px;
+    float:left;
+}
+
+/* 分享栏 */
+.totop{
+    width: 26px;
+    height: 200px;
+    background-color:white;
+    position: fixed;
+    bottom: 400px;
+    margin-left: 2px;
+}
+
+.side{
+    width: 242px;
+    height: 1800px;
+    background-color:rgb(221, 231, 225);
+    float: right;
+    border: rosybrown solid 1px;
+}
+
+
+.totop a:hover{
+    background-color:yellowgreen;
+    color:red;
+}
+.totop div{
+    border: rgb(33, 26, 138) solid 1px;
+}
+
+/* 右边栏新闻 */
+.link li :hover{
+    color: red;
+}
+
+.hidebar{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+}
+
+.hidebar2{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color:silver;
+}
+
+.hidebar3{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color: #afb;
+}
+
+.hidebar5{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color: #0ff;
+}
+
+.hidebar6{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color:rgb(73, 37, 114);
+}
+
+.hidebar7{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color:rgb(95, 184, 83);
+}
+.hidebar4{
+    width: 240px;
+    height: 240px;
+    margin-right: 105px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    margin-right: 0px;
+    float: right;
+    margin-top: 100px;
+    background-color: burlywood;
+}
+
+
+.h4{
+    margin-top: -35px;
+    color: white;
+}
+.link{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+
+.lemmaWgt-lemmaCatalog {
+    margin: 35px 0;
+}
+
+div {
+    display: block;
+}
+
+.lemmaWgt-lemmaCatalog:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+/* 目录部分 */
+.content{
+    width: 100%;
+    height: 180px;
+    border: orange solid 1px;
+    background-image: url(https://img.51miz.com/Element/00/59/42/33/316b5cc4_E594233_95888c4e.jpg!/quality/90/unsharp/true/compress/true/format/jpg);
+}
+.booktitle{
+    padding-top: 40px;
+    width: 50px;
+    height: 140px;
+    border: orange solid 1px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.leftpart{
+    width: 200px;
+    height: 150px;
+    border: palegreen solid 1px;
+    float: left;
+    text-indent: 50px;
+    font-size: large;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.rightpart{
+    width: 600px;
+    height: 150px;
+    border: palegreen solid 1px;
+    float: left;
+    text-indent: 50px;
+    font-size: large;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/* 基本信息 */
+.lemma-summary {
+    clear: both;
+    font-size: 14px;
+    color: salmon;
+    word-wrap: break-word;
+    color: #333;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+    border: orchid dotted;
+    background-color: #bfc;
+}
+
+.part2 {
+    font-size: 16px;
+    word-wrap: break-word;
+    color: #333;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+    border: orchid dotted;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589118218098&di=e24b5b704f485f85138ed2f02801e195&imgtype=0&src=http%3A%2F%2Fp1.pccoo.cn%2Fbbs%2F20130830%2F201308301524101487.jpg);
+    background-position: center;
+}
+
+
+.headline-content, .headline-content2, .headline-content4{
+    color:tomato;
+    font-size: large;
+}
+
+
+.partt{
+    font-size: 16px;
+    word-wrap: break-word;
+    color: #333;
+    text-indent: 2em;
+    line-height: 24px;
+    zoom: 1;
+    background-color: #bfa;
+    font-weight: bold;
+}
+
+.part4{
+    border: honeydew solid 2px;
+    margin-top: 50px;
+}
+
+.content3{
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer{
+    float: left;
+    width:1200px;
+    height: 200px;
+    border: yellowgreen dotted 2px;
+    margin-left: 32px;
+    margin-top: 120px;
+    background-image: url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1960141278,702820962&fm=26&gp=0.jpg);
+}
+
+dl.fresh{
+    float: left;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.question{
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.suggestion{
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+dd div a:hover{
+    color:red;
+}
+
+
+/* 设置图片动态效果 */
+
+
+html{
+    /* 设置当前网页的视距为800px */
+    perspective: 800px;
+}
+
+.p1{
+    margin-top: 50px;
+    width: 230px;
+    height:300px;
+    border: honeydew solid 2px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+}
+.p2{
+    margin-top: 50px;
+    width: 230px;
+    height:300px;
+    border: honeydew solid 2px;
+    overflow: hidden;
+    margin-left: 50px;
+    float: left;
+}
+.p3{
+    margin-top: 50px;
+    width: 230px;
+    height:300px;
+    border: honeydew solid 2px;
+    overflow: hidden;
+    margin-left: 50px;
+    float: right;
+}
+
+.zazhi1{
+    margin-top: 60px;
+     border: honeydew solid 1px;
+     -webkit-margin-bottom-collapse: collapse;
+     margin-left: 50px;
+}
+
+.zazhi1:hover{
+    transform: translateZ(20px);
+    transition: 1s;
+}
+
+.zazhi2{
+    margin-top: 60px;
+     border: honeydew solid 1px;
+     -webkit-margin-bottom-collapse: collapse;
+     margin-left: 50px;
+}
+
+.zazhi2:hover{
+    transform: translateZ(20px);
+    transition: 1s;
+}
+
+.part3:hover .p1{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+.part3:hover .p2{
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+
+.hidebar:hover .img{
+    transform: translateZ(20px);
+    transition: 1s;
+}
